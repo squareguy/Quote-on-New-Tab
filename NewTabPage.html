@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>New Tab</title>
+<style>
+
+
+body {
+  font-family:serif;
+  font-size: -webkit-xxx-large;
+  margin: auto;
+  margin-top: 1%;
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    width:85%;
+    font-size:xx-large;
+  }
+}
+
+span {
+  font-weight: bold;
+}
+
+blockquote:before {
+  content: "\201C";
+}
+
+blockquote:after {
+  content: "\201D";
+}
+
+footer {
+  font-style: italic;
+  font-size: initial;
+}
+.night {
+  background: #000;
+  color: #fff;
+}
+.day {
+  background: #fff;
+  color: #000;
+}
+</style>
+
+</head>
+<body>
+  <span id="author"></span>
+  <blockquote id="quote"></blockquote>
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+</html>

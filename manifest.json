@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Quote on New Tab",
+  "version": "1",
+  "chrome_url_overrides": {
+    "newtab": "NewTabPage.html"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_security_policy": "script-src 'self' https://query.yahooapis.com; object-src 'self'",
+  "permissions":["storage"]
+}
