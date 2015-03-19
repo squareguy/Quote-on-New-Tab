@@ -6,6 +6,8 @@
     "newtab": "NewTabPage.html"
   },
   "icons": {
+    "16":"icon16.png",
+	"48":"icon48.png",
     "128": "icon128.png"
   },
   "content_security_policy": "script-src 'self' https://query.yahooapis.com; object-src 'self'",
